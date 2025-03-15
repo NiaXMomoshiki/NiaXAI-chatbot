@@ -1,4 +1,22 @@
-body {
+body
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    width: 50px; /* Размер логотипа */
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
